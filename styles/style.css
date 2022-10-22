@@ -1,0 +1,140 @@
+   /* font import start */
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+   /* font import end */
+
+   /* Common Styles Are Utilites Starts */
+
+   body {
+       font-family: poppins;
+       font-weight: 400;
+       margin: 0;
+       color: #6C6C6C;
+   }
+
+   h1 {
+       font-size: 64px;
+   }
+
+   ul,
+   li,
+   a {
+       padding: 0;
+       margin: 0;
+       margin-top: 25px;
+   }
+
+   .container {
+       display: flex;
+       margin-bottom: 100px;
+       width: 1160px;
+       margin: 0 auto;
+       padding-bottom: 84px;
+   }
+
+   /***************************** 
+   Common Styles Are Utilites End
+    *****************************/
+
+   /* Header Styles Start From Here */
+   header {
+       background-color: #2D25A0;
+       width: 100%;
+   }
+
+   .menu-section {
+       justify-content: space-between;
+       /* align-items: center; */
+       padding: 50px 0 50px 0;
+   }
+
+   .menu ul li {
+       display: inline-block;
+       padding-right: 36px;
+   }
+
+   .menu ul li:hover a {
+       color: #E02C6D;
+   }
+
+   .menu ul li a {
+       text-decoration: none;
+       color: #FFFFFF;
+       transition: 1s;
+   }
+
+   .login {
+       margin-top: 57px;
+       margin-left: 400px;
+   }
+
+   .header-area {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .copa-america {
+       width: 85%;
+       color: #FFFFFF;
+       font-weight: 700;
+   }
+
+   .link-button {
+       background-color: #E02C6D;
+       color: #FFFFFF;
+       padding: 10px 24px;
+       text-decoration: none;
+
+   }
+
+   .header-area:hover .banner img {
+       transform: scale(1.1);
+   }
+
+   .banner img {
+       width: 100%;
+       transition: 1s;
+   }
+
+   /******************************* 
+   Player Blogs Style Start Form Hear 
+   *********************************/
+   .blogs {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-row-gap: 27px;
+       margin-top: 70px;
+       /* align-items: flex-start; */
+   }
+
+   .player-blog {
+       width: 330px;
+       justify-content: center;
+       padding: 15px 11px 33px 11px;
+       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+   }
+
+   .bolog .blog-info {
+       margin-left: 5px;
+   }
+
+   .thumbnail img {
+       width: 320px;
+       transition: 1s;
+   }
+
+   .thumbnail img:hover {
+       transform: scale(1.1);
+   }
+
+   .blog-title {
+       color: #18191F;
+   }
+
+   .reed-more {
+       text-decoration: none;
+       font-weight: 700;
+       color: #E02C6D;
+   }
