@@ -17,6 +17,10 @@
        font-size: 64px;
    }
 
+   .h2 {
+       font-size: 48px;
+   }
+
    ul,
    li,
    a {
@@ -137,4 +141,22 @@
        text-decoration: none;
        font-weight: 700;
        color: #E02C6D;
+   }
+
+   /* pagination start hear */
+
+   .pagination {
+       text-align: center;
+   }
+
+   .pagination a:nth-child(2) {
+       color: #E02C6D;
+   }
+
+   .pagination a {
+       color: black;
+       float: left;
+       padding: 20px 14px;
+       text-decoration: none;
+       font-weight: 700;
    }
