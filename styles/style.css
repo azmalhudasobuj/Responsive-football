@@ -17,7 +17,7 @@
        font-size: 64px;
    }
 
-   .h2 {
+   h2 {
        font-size: 48px;
    }
 
@@ -124,6 +124,14 @@
        margin-left: 5px;
    }
 
+   .blog-title:hover {
+       color: gold;
+   }
+
+   .blog-title {
+       transition: 1s;
+   }
+
    .thumbnail img {
        width: 320px;
        transition: 1s;
@@ -159,4 +167,71 @@
        padding: 20px 14px;
        text-decoration: none;
        font-weight: 700;
+   }
+
+   /* pagination style End hear */
+
+
+   /* highlight style start */
+
+   .Highlights {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .Highlights h2 {
+       color: #0A0826;
+       margin-top: 35px;
+       width: 100%;
+       transition: 1s;
+   }
+
+   .Highlights:hover h2 {
+       transform: scale(1.1);
+   }
+
+   .Highlights p {
+       padding-bottom: 24px;
+       display: block;
+       width: 80%;
+       transition: s;
+   }
+
+   .Highlights:hover p {
+       color: slateblue;
+   }
+
+   /* Highlight End Hear  */
+
+   /* Footer Start Hear */
+   footer {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 50px;
+       margin-bottom: 63px;
+   }
+
+   .footer-logo img {
+       height: 110px;
+   }
+
+   .icons {
+       list-style: none;
+   }
+
+   .icon {
+       display: inline-block;
+       width: 32px;
+       height: 32px;
+       background: #e7e7e8;
+       border-radius: 50%;
+       font-size: 17px;
+       text-align: center;
+       line-height: 32px;
+       margin-left: 14px;
+   }
+
+   .icon a {
+       color: #969BAB;
    }
